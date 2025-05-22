@@ -10,12 +10,12 @@ export default function Index() {
         className="w-[300px] h-[300px] mb-4 rounded-full"
         // source={{require("Imagem do pc seguindo rota")}}
         />
-        <Text className="text-2xl text-dark-200 font-bold">Enrique Sena</Text>
+        <Text className="text-2xl mb-5 text-dark-200 font-bold">Enrique Sena</Text>
         <TouchableOpacity >
           <Text>Idade: 23 anos</Text>
-          <Text>Localização: Campo grande Ms</Text>
+          <Text className="mb-5">Localização: Campo grande Ms </Text>
         </TouchableOpacity>
-        <Button title="Editar Perfil"/>
+        <Button title="Editar Perfil" />
         {/* <TextInput
         // placeholder="Digite alguma coisa"
 
